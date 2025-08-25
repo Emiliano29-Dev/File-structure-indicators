@@ -8,7 +8,7 @@ public class Demo_Station {
         "CHAPULTEPEC",
         "CHA-SAN",
         19.4206333333333,
-        -99.1761666666666
+        -99.1761666666666, true      
         );
 
         //Vemos si se creo exitosamente el objeto

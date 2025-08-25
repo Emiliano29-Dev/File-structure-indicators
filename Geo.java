@@ -13,15 +13,15 @@ public final class Geo {
         //deltas
         double deltalat = (lat2-lat1);
         double deltalon = (lon2-lon1);
-
-        //Formula del Haversine
+        
+        //Formula del Haversiano
 
         //miembro 1
         double miem1 = Math.sin(deltalat/2) * Math.sin(deltalat/2) +
         Math.cos(lat1) * Math.cos(lat2) * 
         Math.sin(deltalon/2) * Math.sin(deltalat/2);
 
-        //miembro 1
+        //miembro 2
         double miem2 = 2 * Math.asin(Math.sqrt(miem1));
         
         //Distancia entre coordenadas

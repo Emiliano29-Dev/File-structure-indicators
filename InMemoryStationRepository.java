@@ -7,6 +7,10 @@ public class InMemoryStationRepository implements StationRepository {
         List<Station> list = new ArrayList<>();
 
         //Direccion CHA-SAN
+<<<<<<< HEAD
+=======
+        list.add(new Station(1L, "CHA", "CHAPULTEPEC", "CHA-SAN", 19.4206333333333, -99.1761666666666,true));
+>>>>>>> f8680c8f56a6bbc2b6ddb2705b4568063d89b8f6
         list.add(new Station(1L, "CHA", "CHAPULTEPEC", "CHA-SAN", 19.4206333333333, -99.1761666666666, true));
         list.add(new Station(2L, "JNO", "JUANACATLAN_OESTE", "CHA-SAN", 19.41283, -99.1820466666666, false));
         list.add(new Station(3L, "IGE", "IGNACIO_ESTEVAN", "CHA-SAN", 19.4095333333, -99.1836, false));
@@ -57,7 +61,11 @@ public class InMemoryStationRepository implements StationRepository {
         list.add(new Station(46L, "SOF", "SOFIA", "SAN-CHA", 19.3574027778, -99.1897444444, false));
         list.add(new Station(47L, "FLP", "FELIPE_VILLANUEVA", "SAN-CHA", 19.3602055556, -99.1892888889, false));
         list.add(new Station(48L, "BMU", "BARRANCA_DEL_MUERTO", "SAN-CHA", 19.361435, -99.1892716666666, false));
+<<<<<<< HEAD
         list.add(new Station(49L, "JMV", "JOSE_MARIA_VELASCO", "SAN-CHA", 19.3644861111, -99.1888694444 , false));
+=======
+        list.add(new Station(49L, "JMV", "JOSE_MARIA_VELASCO", "SAN-CHA", 19.3665638889, -99.1886055556, false));
+>>>>>>> f8680c8f56a6bbc2b6ddb2705b4568063d89b8f6
         list.add(new Station(50L, "DBC", "DIEGO_BECERRA", "SAN-CHA", 19.3665638889, -99.1886055556, false));
         list.add(new Station(51L, "ADC", "ANDRES_DE_LA_CONCHA", "SAN-CHA", 19.3687111111, -99.1883555556, false));
         list.add(new Station(52L, "JCT", "JOSE_DEL_CASTILLO", "SAN-CHA", 19.3717444444, -99.1880361111, false));
